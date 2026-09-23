@@ -14,7 +14,7 @@ A collection of Python utility scripts for interacting with the **YouTube Data A
 
 ---
 
-## ⚙️ Prerequisites & Setup
+## Prerequisites & Setup
 
 1. **Python 3.x** installed on your machine.
 2. Install the required dependencies:
