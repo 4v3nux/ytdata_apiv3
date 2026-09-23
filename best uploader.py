@@ -42,6 +42,6 @@ response = None
 while response is None:
     status, response = request.next_chunk()
     if status:
-        print(f"Загружено: {int(status.progress() * 100)}%")
+        print(f"Uploaded: {int(status.progress() * 100)}%")
 
 print("Success! The video has been completely uploaded to your channel")
