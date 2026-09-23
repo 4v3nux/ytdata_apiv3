@@ -43,7 +43,7 @@ def get_authenticated_service():
             
         with open(TOKEN_FILE, "w") as token:
             token.write(creds.to_json())
-            print(f"✅ Файл {TOKEN_FILE} successfully saved/updated.")
+            print(f"File {TOKEN_FILE} successfully saved/updated.")
 
     return googleapiclient.discovery.build("youtube", "v3", credentials=creds)
 
