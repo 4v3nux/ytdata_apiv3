@@ -8,7 +8,7 @@ A collection of Python utility scripts for interacting with the **YouTube Data A
 
 | Script | Description |
 | :--- | :--- |
-| **`views.py`** | Runs a background loop that periodically fetches a video's stats and dynamically updates its title with the current view and like counts. |
+| **`views.py`** | Runs a background loop that periodically fetches a video's stats and dynamically updates its title with the current view and like counts. (example: [click me](https://www.youtube.com/watch?v=Pr9PDr6WuTw)) |
 | **`best uploader.py`** | Handles reliable, chunked (resumable) video uploads with customizable metadata (title, description, category, and privacy settings). |
 | **`unique id.py`** | Automatically uploads a video file and immediately updates its title to match its newly assigned YouTube Video ID]. |
 
